@@ -1,5 +1,6 @@
+<img width="2090" height="3316" alt="screencapture-cv-bbe2-vercel-app-2026-07-26-12_33_31" src="https://github.com/user-attachments/assets/dd7290dc-ae67-4795-96fc-72d7d81fb662" />
 
-<h1>Minimalist CV <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTheLinuxGuy-ssh%2Fcv"><img src="https://vercel.com/button" alt="Deploy with Vercel" height="24" align="right"></a></h1>
+<h1>Minimalist CV (ATS Friendly)<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FTheLinuxGuy-ssh%2Fcv"><img src="https://vercel.com/button" alt="Deploy with Vercel" height="24" align="right"></a></h1>
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
