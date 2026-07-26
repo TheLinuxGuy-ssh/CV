@@ -48,7 +48,6 @@ export const RESUME_DATA: ResumeData = {
         "Founder of an open-source, ambient co-presence social platform for developers. Spans a React Native mobile app and a Next.js web app on a self-hosted backend.",
       highlights: [
         "Engineered a ~19,000-line React Native/Expo production app with LiveKit-powered peer-to-peer video calling",
-        "Designed and shipped a polymorphic posts system and real-time social feed across the mobile and web apps",
         "Self-hosted the entire backend — Supabase, mailcow, and LiveKit — cutting all third-party SaaS dependence",
         "Load-tested the platform at ~1,500 concurrent users with no performance degradation",
       ],
@@ -64,24 +63,7 @@ export const RESUME_DATA: ResumeData = {
         "Founder of a B2B infrastructure platform combining Kubernetes with an automated control plane for datacenter operations.",
       highlights: [
         "Architected a certificate control node automating mTLS renewal across 20+ nodes and 50+ services",
-        "Runs a 24-hour auto-renewal cycle, eliminating manual certificate tracking across the fleet",
         "Designed and validated automation tooling against live production infrastructure ahead of launch",
-      ],
-    },
-    {
-      company: "BrightPath AI",
-      link: "",
-      badges: ["React", "Next.js", "Firebase", "Gmail API", "TypeScript"],
-      title: "Senior Full-Stack Developer",
-      start: "2021",
-      end: null,
-      description:
-        "Senior developer building internal tools that automate client communication and project tracking for creative agencies.",
-      highlights: [
-        "Developed a React/Next.js/Firebase dashboard that auto-drafts email replies for team review",
-        "Processes 1,000+ client emails per day to keep drafts and timelines current",
-        "Automated project timeline updates from inbound client emails, cutting manual data entry to zero",
-        "Owned the email-parsing and reply-suggestion pipeline end-to-end, from ingestion through UI",
       ],
     },
     {
@@ -110,15 +92,8 @@ export const RESUME_DATA: ResumeData = {
     "React / Next.js",
     "TypeScript",
     "React Native / Expo",
-    "Node.js",
     "Svelte",
-    "CSS / Tailwind",
-    "PostgreSQL / Supabase",
-    "Firebase",
-    "Redis",
-    "LiveKit / WebRTC",
     "Docker / Nginx",
-    "Kubernetes",
     "CI/CD (GitHub Actions)",
     "Linux / Systems Administration",
     "mTLS / PKI",
@@ -133,7 +108,6 @@ export const RESUME_DATA: ResumeData = {
       highlights: [
         "Implemented a custom window manager with drag, z-index stacking, and minimize/maximize at 60fps",
         "Created 10+ simulated apps including a file browser, terminal, and chess game",
-        "Shipped a full desktop shell with glassmorphism styling rendered entirely in the browser",
       ],
       link: {
         label: "GitHub",
