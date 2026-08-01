@@ -1,7 +1,12 @@
+```typescript
 import type { MetadataRoute } from "next";
+import { RESUME_DATA } from "@/data/resume-data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://cv.linuxguy.tech";
+  const baseUrl =
+    RESUME_DATA.personalWebsiteUrl ||
+    process.env.NEXT_PUBLIC_BASE_URL ||
+    "https://cv.example.com";
 
   return [
     {
@@ -12,3 +17,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 }
+```
