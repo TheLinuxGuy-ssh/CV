@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a bug with the resume template
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the details below.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: When I do X, Y happens instead of Z...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+      placeholder: I expected A to happen...
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or logs
+      description: If applicable, add screenshots or console output to help explain the problem.
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser(s) did this occur on?
+      placeholder: "Chrome 128, Firefox 130, Safari 17..."
+
+  - type: input
+    id: node
+    attributes:
+      label: Node.js version
+      description: Run `node -v` and paste the output.
+      placeholder: "v22.x"
