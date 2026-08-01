@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prebuild": "npm run typecheck",
+    "typecheck": "tsc --noEmit",
     "start": "next start",
     "lint": "biome lint ./src",
     "lint:fix": "biome lint --write ./src",
