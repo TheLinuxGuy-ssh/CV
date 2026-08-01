@@ -40,10 +40,7 @@ function ProjectLink({ title, link }: ProjectLinkProps) {
           aria-hidden="true"
         />
       </a>
-      <div
-        className="hidden font-mono text-xs underline print:visible"
-        aria-hidden="true"
-      >
+      <div className="hidden font-mono text-xs underline print:inline">
         {link.replace("https://", "").replace("www.", "").replace("/", "")}
       </div>
     </>
