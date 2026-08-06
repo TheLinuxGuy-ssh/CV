@@ -30,19 +30,17 @@ function ProjectLink({ title, link }: ProjectLinkProps) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 hover:underline"
+        className="inline-flex items-center gap-1 hover:underline print:hidden"
         aria-label={`${title} project (opens in new tab)`}
       >
         {title}
         <span
-          className="size-1 rounded-full bg-green-500 print:hidden"
+          className="size-1 rounded-full bg-green-500"
           title="Active project indicator"
           aria-hidden="true"
         />
       </a>
-      <div className="hidden font-mono text-xs underline print:inline">
-        {link.replace("https://", "").replace("www.", "").replace("/", "")}
-      </div>
+      <span className="hidden print:inline">{title}</span>
     </>
   );
 }
