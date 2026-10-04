@@ -32,6 +32,7 @@ export function Avatar({
           alt={alt}
           width={112}
           height={112}
+          sizes="112px"
           className="aspect-square h-full w-full object-cover"
           onError={() => setError(true)}
           priority={true}
